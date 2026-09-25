@@ -16,12 +16,7 @@
 @media(max-width:900px){.presentation-grid{grid-template-columns:1fr}.career-row{grid-template-columns:70px 1fr}}
 @media print{.nav,.buttons,.contact,footer{display:none}.section,.hero{padding:35px}.hero{min-height:auto}.section{page-break-inside:avoid}}
 \n\n/* Version 2 enhancements */\n.projects-section{background:#fff}.project-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.project-grid article{border:1px solid var(--line);background:#fbfaf7;padding:28px;min-height:270px}.project-tag{font-size:.68rem;letter-spacing:.12em;font-weight:700;color:var(--accent)}.project-grid h3{font-size:1.2rem;margin:13px 0 4px}.project-grid p{color:var(--muted);font-size:.91rem}.chips{display:flex;flex-wrap:wrap;gap:7px;margin-top:18px}.chips span{border:1px solid var(--line);background:#fff;padding:5px 8px;border-radius:999px;font-size:.72rem;color:#526065}.filters{display:flex;gap:7px;flex-wrap:wrap}.filter{border:1px solid var(--line);background:#fff;padding:8px 12px;border-radius:999px;cursor:pointer;font:inherit;font-size:.78rem}.filter.active{background:var(--accent);color:#fff;border-color:var(--accent)}.collaboration-section{background:#dfece8;padding:80px 4%}.collab-inner{width:min(1120px,100%);margin:auto;display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}.collab-inner h2{margin-bottom:15px}.collab-inner p{color:#526065}.collab-tags{display:flex;flex-wrap:wrap;gap:9px}.collab-tags span{background:#fff;padding:9px 12px;border-radius:999px;font-size:.8rem;border:1px solid #d4e1dd}@media(max-width:850px){.project-grid,.collab-inner{grid-template-columns:1fr}}\n
-.profile-links{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:9px;margin:22px 0 16px;max-width:820px}
-.profile-links a{display:flex;flex-direction:column;gap:2px;text-decoration:none;background:#fff;border:1px solid var(--line);border-radius:6px;padding:10px 12px;transition:.2s}
-.profile-links a:hover{border-color:var(--accent);transform:translateY(-2px)}
-.profile-links span{font-weight:700;font-size:.82rem;color:var(--accent)}
-.profile-links small{font-size:.68rem;color:var(--muted)}
 .doi-link{color:var(--accent)!important;text-decoration:none;font-size:.78rem!important}
 .doi-link:hover{text-decoration:underline}
-@media(max-width:850px){.profile-links{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:560px){.profile-links{grid-template-columns:1fr 1fr}}
+
+
